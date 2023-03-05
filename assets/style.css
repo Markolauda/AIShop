@@ -117,7 +117,7 @@ nav ul li a i:hover{
 #wrapper-cover-main{
     flex-direction: column;
     display: flex;
-    background-image:url(/assets/img/main-cover-shop.jpg);
+    background-image:url(/aishop/assets/img/main-cover-shop.jpg);
     height: 810px;
     background-repeat: no-repeat;
     background-size: cover;
