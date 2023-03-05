@@ -16,6 +16,8 @@ html{
     --lightpurple:#D5D4E4;
     --lightnorage:#E05E00;
     --lightblack:rgb(39, 37, 37);
+    --greyblack:#b9cbda;
+    --whitetipe:#f6fafd;
 }
 
 @font-face {
@@ -23,7 +25,7 @@ html{
     src: url(/aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
 }
 body{
-    background-color:var(--white);
+    background-image: linear-gradient(to right, var(--greyblack), var(--whitetipe));
    font-family:"press-reg";
 }
 ul{

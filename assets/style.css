@@ -16,6 +16,9 @@ html{
     --lightpurple:#D5D4E4;
     --lightnorage:#E05E00;
     --lightblack:rgb(39, 37, 37);
+    --greyblack:#a5b8c8;
+    --whitetipe:#f6fafd;
+    --greenlight:#dfeaec;
 }
 
 @font-face {
@@ -23,7 +26,8 @@ html{
     src: url(/aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
 }
 body{
-    background-color:var(--white);
+    background-image: linear-gradient(to right, var(--lightgrey),#D5D4E4);
+    /* background-color:var(--white); */
    font-family:"press-reg";
 }
 ul{
@@ -120,24 +124,27 @@ nav ul li a i:hover{
     margin-top: 10px;
     flex-direction: column;
     display: flex;
+    flex-wrap: wrap;
     background-image:url(/aishop/assets/img/main-cover-shop.jpg);
     height: 810px;
     background-repeat: no-repeat;
     background-size: cover;
-    flex-wrap: wrap;
+    align-content: flex-end;
 }
 .wrapper-up{
+    float: right;
     gap: 20px;
     border-radius: 10px 10px;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0,0.5);
     margin:10px auto;
-    background-color: var(--white);
+    background-color: var(--lightgrey);
     height: 150px;
     width: 350px;
     display: grid;
     place-items: center;
     align-items: center;
 }
+
 .wrapper-up button{
     transition: transform 0.5s ease-in;
     color: #fff;
@@ -162,9 +169,10 @@ button:hover{
     border-radius: 10px 10px;
     box-shadow: 0px 0px 10px 0px rgb(0, 0, 0,0.5);
     margin:10px auto;
+    margin-right: 20px;
     width: 500px;
     height: 160px;
-    background-color: white;
+    background-color:var(--lightgrey);
 }
 .under-text{
     display: flex;
@@ -176,18 +184,22 @@ button:hover{
     margin:10px auto;
     width: 500px;
     height: 160px;
-    background-color:var(--white);
+    background-color:var(--lightgrey);
 }
 .wrapper-down-main{
+    flex-direction: column;
     gap: 10px;
     justify-content: center;
     display: flex;
+    height: 400px;
+    margin: 5px 1px;
 }
 .wrapper-up p{
     font-size: 20px;
     color: var(--lightblue);
 }
 .wrappper-left img{
+    border-radius: 10px 10px;
     object-fit: cover;
     cursor: pointer;
     margin-top: 1px;
@@ -203,6 +215,7 @@ button:hover{
 }
 
 .wrapper-right img{
+    border-radius: 10px 10px;
     object-fit: cover;
     margin-top: 30px;
     width: 150px;
@@ -230,7 +243,7 @@ button:hover{
     background-image: linear-gradient(to right, #D5D4E4,var(--lightgrey));
 }
 .first{
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0,0.5);
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0,0.5);
     border-radius: 10px 10px;
     margin-top: 30px;
     margin-left: 55px;
