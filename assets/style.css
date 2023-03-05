@@ -117,6 +117,7 @@ nav ul li a i:hover{
 }
 /* COVER SECTION */
 #wrapper-cover-main{
+    margin-top: 10px;
     flex-direction: column;
     display: flex;
     background-image:url(/aishop/assets/img/main-cover-shop.jpg);
@@ -473,6 +474,7 @@ height: 150px;
 /* FORM ANIMATED SECTION */
 
 #container-f-f{
+    margin-top: 10px;
     display: flex;
 	justify-content: center;
 	align-items: center;
@@ -637,6 +639,7 @@ input[value=login]:hover{
 }
 /* FOOTER SECTION */
 #cpc{
+    padding-top: 10px;
     background-color: var(--lightblue);
     display: flex;
     justify-content: space-between;
