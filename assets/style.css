@@ -252,7 +252,7 @@ button:hover{
     font-size: 25px;
     
 }
-article .class-price {
+.class-price {
     display: flex;
     margin-top: 10px;
     margin: 10px;
