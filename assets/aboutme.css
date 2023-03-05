@@ -163,3 +163,6 @@ main{
 .ppr ul li i:hover{
     color: var(--yellow);
 }
+.desinger a{
+    text-decoration: none;
+ }
