@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --white:#fff;
+    --lightblue:rgb(12, 164, 241);
+    --lightgreen:rgb(12, 203, 12);
+    --grey:rgb(148, 144, 144);
+    --yellow:rgb(243, 243, 5);
+    --lightgrey:#E0EBED;
+    --lightpurple:#D5D4E4;
+    --lightnorage:#E05E00;
+    --lightblack:rgb(39, 37, 37);
+}
+
+@font-face {
+    font-family: "press-reg";
+    src: url(/aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
+}
+body{
+    background-color:var(--white);
+   font-family:"press-reg";
+}
+ul{
+    list-style-type:none;
+}
+.cleaner{
+    clear: both;
+}
+/* MAIN HEADER SECTION */
+header, main,footer{
+    max-width: 1400px;
+    margin: auto;
+}
+.head-wrapper {
+    position: sticky;
+    top: 0px;
+    padding: 1px;
+    background-color:var(--lightblue);
+    z-index:2;
+}
+#logo img{
+    margin-left: 10px;
+    float: left;
+    
+    height: 40px;
+    width: 40px;
+    margin-bottom: 10px;
+}
+#head-message{
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#head-message p{
+    color: var(--white);
+}
+#head-message p:hover{
+    animation: pulse 0.4s ease-in infinite ;
+    color:var(--yellow);
+}
+@keyframes pulse{
+    25%  {transform: scale(0.9);}
+    75%  {transform: scale(1.1);}
+  }
+#head-message span{
+    color: rgb(153, 237, 62);
+    font-size: 20px;
+}
+.nav-bar-b{
+    margin-top: -25px;
+    float: right;
+}
+.nav-bar-b ul li{
+    display: inline;
+    padding: 5px;
+}
+
+nav i{
+    color: var(--white);
+}
+nav ul li a i:hover{
+    color: var(--yellow);
+}
+
+#head-all{
+    background-color: var(--lightgrey);
+    padding: 10px;
+}
+.border{
+    border-right: 3px solid #fff;
+}
+.head-home h3 {
+    font-size: 30px;
+    text-decoration: none;
+    float:left;
+    color: var(--lightgreen);
+}
+.head-home h3 span{
+    color: var(--lightblue)
+}
+.home-head ul li{
+    margin-top: 9px;
+    float: right;
+ }
+ .home-head ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--lightblue);
+}
