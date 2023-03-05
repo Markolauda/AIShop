@@ -474,7 +474,7 @@ height: 150px;
 	align-items: center;
 	height: 500px;
 	flex-direction: column;
-    background-image: linear-gradient(to right, #D5D4E4,var(--lightgrey));
+    background-image: linear-gradient(to right, var(--lightgrey), #D5D4E4);
 }
 .box{
 	position: relative;
@@ -625,9 +625,11 @@ input[type="submit"]
 	width: 100px;
 	margin-top: 10px;
 }
-input[type="submit"]:active 
-{
+input[type="submit"]:active{
 	opacity: 0.8;
+}
+input[value=login]:hover{
+    transition: transform 0.3s ease-in;
 }
 /* FOOTER SECTION */
 #cpc{
