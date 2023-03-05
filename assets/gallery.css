@@ -173,7 +173,7 @@ nav ul li a i:hover{
     font-size: large;
     color: var(--white);
 }
-span{
+.item-cost-exp span{
     text-decoration: line-through;
 }
 .big-big-big{
