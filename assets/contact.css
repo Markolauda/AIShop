@@ -133,11 +133,105 @@ nav ul li a i:hover{
     color: var(--lightnorage);
 }
 /*END HEADER*/
-#f-form{
-    background-image: linear-gradient(var(--lightgrey),var(--lightpurple));
-    height: 600px;
+main{
+    background: linear-gradient(var(--brbrown),var(--green-green));
+    height: 800px;
     width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
+.faform-wrapper-d{
+    width: 600px;
+    height: 500px;
+    position: relative;
+    background: var(--whitetipe);
+    border-radius: 10px solid;
+	overflow: hidden;
+    box-shadow: 0px 0px 10px 0px var(--whitetipe);
+    border-radius: 2%;
+}
+.faform-wrapper-d::before{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+    width: 600px;
+    height: 500px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,var(--king-blue),var(--lightnorage));
+	animation: animate 6s linear infinite;
+}
+.faform-wrapper-d::after{
+	content: '';
+	z-index: 1;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+    width: 600px;
+    height: 500px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,var(--lightnorage), var(--king-blue));
+	animation: animate 6s linear infinite;
+	animation-delay: -3s;
+}
+@keyframes animate 
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(360deg);
+	}
+}
+form{
+    position: absolute;
+	inset: 2px;
+	background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+	padding: 50px 40px;
+	border-radius: 8px;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.faform-wrapper input{
+    background-color: linear-gradient(0deg,transparent,var(--lightnorage), var(--king-blue));
+	box-shadow: none;
+	border: none;
+    outline: none;
+    font-size: 15px;
+	letter-spacing: 0.05em;
+    color: var(--whitetipe);
+}
+form textarea{
+    width: 100%;
+    background-color: var(--wannabewhite);
+    color: var(--lightnorage);
+}
+.faform-wrapper label{
+    font-size: 20px;
+    color: var(--wannabewhite);
+}
+.faform-wrapeer textarea label{
+    color: var(--lightnorage);
+}
+.faform-wrapper select{
+    background-color: var(--lightnorage);
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    color: var(--wannabewhite);
+}
+.faform-wrapeer #datTime{
+    font-size: large;
+}
+
 
 
 
