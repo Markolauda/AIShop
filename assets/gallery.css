@@ -7,17 +7,22 @@ html{
     scroll-behavior: smooth;
 }
 :root{
-    --white:#fff;
-    --lightblue:rgb(12, 164, 241);
-    --lightgreen:rgb(12, 203, 12);
-    --grey:rgb(148, 144, 144);
-    --yellow:rgb(243, 243, 5);
-    --lightgrey:#E0EBED;
-    --lightpurple:#D5D4E4;
+    /* FIRST COLOR PANEL */
+    --green-top: #64ab68;
+    --lightblue: #7f9a9c;
+    --lightgreen:#836153;
+    --brbrown:#925b23;
+    --grey: #5f6a6c;
+    --green-green: #518159;
     --lightnorage:#E05E00;
     --lightblack:rgb(39, 37, 37);
-    --greyblack:#b9cbda;
-    --whitetipe:#f6fafd;
+    --br-light:#c5967a;
+    /* SECOND COLOR PANEL */
+        --black:#10140d;
+        --whitetipe:#f6fafd;
+        --king-blue:#021e4b;
+        --wannabewhite:#f2edd7ff;
+
 }
 
 @font-face {
@@ -25,7 +30,6 @@ html{
     src: url(/aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
 }
 body{
-    background-image: linear-gradient(to right, var(--greyblack), var(--whitetipe));
    font-family:"press-reg";
 }
 ul{
@@ -35,88 +39,107 @@ ul{
     clear: both;
 }
 /* MAIN HEADER SECTION */
-header, main,footer{
-    max-width: 1400px;
+header,footer{
+    max-width: 100%;
     margin: auto;
 }
-.head-wrapper {
+header{
+    top:0px;
     position: sticky;
-    top: 0px;
-    padding: 1px;
-    background-color:var(--lightblue);
-    z-index:2;
+    z-index: 5;
+}
+.head-wrapper {
+    padding-top: 1px;
+    height: 40px;
+    background-color:var(--green-green);
+  
 }
 #logo img{
     margin-left: 10px;
     float: left;
-    height: 40px;
-    width: 40px;
+    height: 100px;
+    width: 80px ;
     margin-bottom: 10px;
+    position: absolute;
+    z-index: 2;
 }
 #head-message{
     cursor: pointer;
     display: grid;
     place-items: center;
-    margin-top: 15px;
-    font-size: 20px;
+    margin-top: 1px;
+    font-size: 30px;
 }
 #head-message p{
-    color: var(--white);
+    color: var(--whitetipe);
 }
 #head-message p:hover{
-    animation: pulse 0.4s ease-in infinite ;
-    color:var(--yellow);
+    animation: pulse 0.5s ease-in infinite ;
+    color:var(--br-light);
 }
 @keyframes pulse{
     25%  {transform: scale(0.9);}
     75%  {transform: scale(1.1);}
   }
 #head-message span{
-    color: rgb(153, 237, 62);
+    padding: 5px;
+    color: var(--whitetipe);
     font-size: 20px;
 }
 .nav-bar-b{
-    margin-top: -25px;
+    margin-top: -30px;
     float: right;
 }
 .nav-bar-b ul li{
     display: inline;
-    padding: 5px;
+    padding: 8px;
 }
 
 nav i{
-    color: var(--white);
+    font-size: 25px;
+    color: var(--whitetipe);
 }
 nav ul li a i:hover{
-    color: var(--yellow);
+    color: var( --br-light);
 }
 
 #head-all{
-    background-color: var(--lightgrey);
-    padding: 10px;
+    background-image:url(/aishop/assets/img-head/beansb2b.jpg);
+    padding: 40px;
 }
 .border{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: none;
     float:left;
-    color: var(--lightgreen);
+    color: var(--whitetipe);
 }
 .head-home h3 span{
-    color: var(--lightblue)
+    color: var(--lightnorage)
 }
 .home-head ul li{
     margin-top: 9px;
     float: right;
+    padding: 10px;
  }
  .home-head ul li a{
-    font-size: 18px;
-    text-decoration: none;
-    color: var(--lightblue);
+    font-size: 30px;
+    text-decoration:none;
+    color: var(--wannabewhite);
+}
+.home-head ul li a:hover{
+    color: var(--lightnorage);
 }
 /* END COVER */
+main{
+    display: grid;
+    justify-content: center;
+    background-image: url(/aishop/assets/gallery-hp/coffee-map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 #glry{
     gap: 10px ;
     margin-top: 10px;
@@ -125,11 +148,10 @@ nav ul li a i:hover{
     flex-wrap: wrap;
     align-content: flex-start;
     width: 1400px;
-    height: 1200px;
-    background-image: url(/aishop/assets/gallery-img/g-cover.jpg);
+    height: 1700px;
+    /* background-image: url(/aishop/assets/gallery-hp/coffee-map.jpg); */
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: cover; 
 }
 .products{
     cursor: pointer;
@@ -139,10 +161,10 @@ nav ul li a i:hover{
     display:flex;
     width: 330px;
     height: 150px;
-    background-color: var(--white);
+    background-color: var(--wannabewhite);
 }
 .mouse{
-    opacity:0.5;
+    opacity:0.7;
 }
 .mouse:hover{
     opacity:1;
@@ -173,7 +195,7 @@ nav ul li a i:hover{
 }
 .class-price p{
     font-size: large;
-    color: var(--white);
+    color: var(--wannabewhite);
 }
 .item-cost-exp span{
     text-decoration: line-through;
@@ -183,7 +205,7 @@ nav ul li a i:hover{
     box-shadow: 5px 5px 5px #666;
     width: 900px;
     height: 500px;
-    background-color: var(--white);
+    background-color: var(--wannabewhite);
 }
 .big img{
     border-radius: 10px 10px 0px 0px;
@@ -200,17 +222,10 @@ nav ul li a i:hover{
 .big span{
     color:black;
 }
-
-
-
-
-
-
-
-
 /* FOOTER SECTION START*/
 #cpc{
-    background-color: var(--lightblue);
+    padding-top: 10px;
+    background-color: var(--green-top);
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -222,6 +237,9 @@ nav ul li a i:hover{
     justify-content: center;
     align-items: center;
 }
+.ppr p{
+    color: var(--lightnorage);
+}
 .ppr ul{
     align-items: center;
 }
@@ -230,19 +248,53 @@ nav ul li a i:hover{
     width: 20%;
     align-items: center;
 }
-.desinger span{
-    color:var(--lightgreen);
-}
 .ppr ul li{
     display: inline;
 }
 .ppr ul li i{
     cursor: pointer;
-    color: var(--white);
+    color: var(--wannabewhite);
 }
 .ppr ul li i:hover{
-    color: var(--yellow);
+    color: var(--lightnorage);
 }
 .desinger a{
+   text-decoration: none;
+}
+.desinger p{
+    color: var(--lightnorage);
+}
+#back-to-start{
+    display: grid;
+    justify-items: center;
+    align-items: baseline;
+    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+    height: 100px;
+    width: 100%;
+}
+#back-to-start button{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 30px;
+    position: absolute;
+    padding: 1em 3em;
+    color: var(--lightgrey);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em var(--lightnorage);
+    background-color: var(--wannabewhite);
+    border: 0.25em solid var(--lightnorage);
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em var(--lightnorage),0 0 2em 0em var(--lightnorage), inset 0 0 0.75em 0.25em var(--lightnorage);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    /* z-index: 60; */
+}
+button a{
     text-decoration: none;
- }
+    color: var(--king-blue);
+}
