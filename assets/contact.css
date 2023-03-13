@@ -208,6 +208,10 @@ form{
     font-size: 15px;
 	letter-spacing: 0.05em;
     color: var(--whitetipe);
+    width: 150px;
+}
+input #tbGender{
+    width: 10px;
 }
 form textarea{
     width: 100%;
@@ -231,7 +235,11 @@ form textarea{
 .faform-wrapeer #datTime{
     font-size: large;
 }
-
+#subButton{
+    width: 150px;
+    display: grid;
+    justify-content: center;
+}
 
 
 

@@ -308,7 +308,7 @@ button:hover{
     overflow-x:auto;
     overscroll-behavior-x:contain;
     scroll-snap-type:x mandatory;
-    scrollbar-width:none;
+    /* scrollbar-width:none; */
     cursor: pointer;
     margin-left: 600px;
 }
@@ -337,6 +337,7 @@ button:hover{
     background-size: cover;
     background-position-y: -75px;
 }
+/* MAP SECTION */
 .how-to-us-map{
     background-image: linear-gradient(to right,var(--br-light),var(--green-green));
     margin-top: 10px;
