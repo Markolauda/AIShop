@@ -200,16 +200,19 @@ button:hover{
     flex-direction: column;
     margin-top: 10px;
     width: 100%;
-    height: 1200px;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+    height: 1000px;
 }
 .text-infront-coffee{
-    font-size: 35px;
-    color: var(--wannabewhite);
-    display: inline;
-    padding-top: 1px;
+    color: var(--king-blue);
     width:550px;
     height: 30px;
+    text-shadow: 2px 2px #64ab68;
+    padding-top: 40px;
+}
+.text-infront-coffee h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 .main-coffie{
     display: flex;
@@ -290,26 +293,27 @@ button:hover{
 }
 /* BLOCK OFFER SECTION */
 #repair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 10px;
     width: 100%;
     height: 330px;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+    padding-bottom:100px ;
 }
 .holder{
     border-radius:10px 10px 10px 10px ;
-    justify-content: start;
-    align-items: center;
-    width: 50%;
+    width: 60%;
     padding: 10px;
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    align-items: center;
     scroll-behavior:auto ;  
     gap: 1.2em;
     overflow-x:auto;
     overscroll-behavior-x:contain;
     scroll-snap-type:x mandatory;
     cursor: pointer;
-    margin-left: 600px;
+    background-color: #518159;
 }
 .fafa img{
     background-size: cover;
@@ -338,7 +342,6 @@ button:hover{
 }
 /* MAP SECTION */
 .how-to-us-map{
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
     margin-top: 10px;
 }
 .how-to-us-map iframe{
@@ -350,7 +353,7 @@ button:hover{
 #section-sign{
     display: flex;
     justify-content: space-evenly;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+    /* background-image: linear-gradient(to right,var(--br-light),var(--green-green)); */
 }
 .shop{
     display: flex;
@@ -362,11 +365,11 @@ button:hover{
 }
 .shop h3{
     text-align: center;
-    color: var(--wannabewhite);
+    color: var(--king-blue);
     font-size: 30px;
 }
 .shop p{
-    color: var(--wannabewhite);
+    color: var(--king-blue);
     font-size: 20px;
 }
 #container-f-f{
@@ -388,12 +391,13 @@ button:hover{
 }
 .accessories h3{
     text-align: center;
-    color: var(--wannabewhite);
+    color: var(--king-blue);
     font-size: 30px;
 }
 .accessories ul li{
     font-size: 20px;
-    color: var(--wannabewhite);
+    font-weight: bold;
+    color: var(--king-blue) ;
 }
 
 .accessories ul{
@@ -457,7 +461,7 @@ form{
 }
 h2 
 {
-	color:var(--wannabewhite);
+	color:var(--king-blue);
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -543,7 +547,7 @@ input[type="submit"]
 /* FOOTER SECTION */
 #cpc{
     padding-top: 10px;
-    background-color: var(--green-top);
+    background-color: var(--green-green);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
