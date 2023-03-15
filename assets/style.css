@@ -384,19 +384,19 @@ button:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-content: space-around;
     justify-content: center;
     letter-spacing: 3px;
     width:500px;
 }
 .accessories h3{
+    padding-top: 30px;
     text-align: center;
     color: var(--king-blue);
     font-size: 30px;
 }
 .accessories ul li{
     font-size: 20px;
-    font-weight: bold;
     color: var(--king-blue) ;
 }
 
