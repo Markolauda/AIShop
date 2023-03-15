@@ -347,6 +347,28 @@ button:hover{
 }
 /* FORM ANIMATED SECTION */
 
+#section-sign{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    width:500px;
+}
+.shop h3{
+    text-align: center;
+    color: var(--wannabewhite);
+    font-size: 30px;
+}
+.shop p{
+    color: var(--wannabewhite);
+    font-size: 20px;
+}
 #container-f-f{
     margin-top: 10px;
     display: flex;
@@ -354,7 +376,29 @@ button:hover{
 	align-items: center;
 	height: 500px;
 	flex-direction: column;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+}
+.accessories{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    letter-spacing: 3px;
+    width:500px;
+}
+.accessories h3{
+    text-align: center;
+    color: var(--wannabewhite);
+    font-size: 30px;
+}
+.accessories ul li{
+    font-size: 20px;
+    color: var(--wannabewhite);
+}
+
+.accessories ul{
+    padding: 2px;
+    text-decoration:none;
 }
 .box{
     box-shadow: 0px 0px 10px 0px var(--whitetipe);
