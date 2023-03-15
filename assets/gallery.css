@@ -225,7 +225,7 @@ main{
 /* FOOTER SECTION START*/
 #cpc{
     padding-top: 10px;
-    background-color: var(--green-top);
+    background-color: var(--green-green);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -244,19 +244,23 @@ main{
     color: var(--lightnorage);
 }
 .ppr ul{
+    padding: 3px;
     align-items: center;
+}
+.ppr ul li{
+    padding: 3px;
 }
 .rss-sitemap{
     display: flex;
     font-size: 40px;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100px;
-    height: 70px;
-    padding-top: 90px;
+    width: 300px;
+    height: 200px;
 }
 .rss-sitemap i{
+    padding: 10px;
     color: var(--whitetipe);
 }
 .desinger{
@@ -286,12 +290,26 @@ main{
     color: var(--lightnorage);
     font-size: 30px;
 }
+.social{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.social nav ul li{
+    padding: 8px;
+    display: inline;
+}
+.social nav ul li i{
+    font-size: 30px;
+}
 #back-to-start{
     padding-right: 30px;
     display: grid;
     justify-items: end;
     align-items: baseline;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
 }
 #back-to-start button{
     margin-top: -65px;
@@ -309,6 +327,7 @@ main{
     outline: none;
     cursor: pointer;
     transition: all 0.5s ease-in;
+
 }
 button a{
     text-decoration: none;

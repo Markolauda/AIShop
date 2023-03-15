@@ -155,7 +155,7 @@ main{
 }
 #cpc{
     padding-top: 10px;
-    background-color: var(--green-top);
+    background-color: var(--green-green);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -174,19 +174,23 @@ main{
     color: var(--lightnorage);
 }
 .ppr ul{
+    padding: 3px;
     align-items: center;
+}
+.ppr ul li{
+    padding: 3px;
 }
 .rss-sitemap{
     display: flex;
     font-size: 40px;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100px;
-    height: 70px;
-    padding-top: 90px;
+    width: 300px;
+    height: 200px;
 }
 .rss-sitemap i{
+    padding: 10px;
     color: var(--whitetipe);
 }
 .desinger{
@@ -216,12 +220,26 @@ main{
     color: var(--lightnorage);
     font-size: 30px;
 }
+.social{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.social nav ul li{
+    padding: 8px;
+    display: inline;
+}
+.social nav ul li i{
+    font-size: 30px;
+}
 #back-to-start{
     padding-right: 30px;
     display: grid;
     justify-items: end;
     align-items: baseline;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
 }
 #back-to-start button{
     margin-top: -65px;
@@ -239,6 +257,116 @@ main{
     outline: none;
     cursor: pointer;
     transition: all 0.5s ease-in;
+
+}
+button a{
+    text-decoration: none;
+    color: var(--king-blue);
+}#cpc{
+    padding-top: 10px;
+    background-color: var(--green-green);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    margin: 0px auto;
+}
+.ppr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+}
+.ppr p{
+    font-size: 30px;
+    color: var(--lightnorage);
+}
+.ppr ul{
+    padding: 3px;
+    align-items: center;
+}
+.ppr ul li{
+    padding: 3px;
+}
+.rss-sitemap{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+}
+.rss-sitemap i{
+    padding: 10px;
+    color: var(--whitetipe);
+}
+.desinger{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 20%;
+    align-items: center;
+}
+.ppr ul li{
+    display: inline;
+}
+.ppr ul li i{
+    cursor: pointer;
+    color: var(--wannabewhite);
+    font-size: 30px;
+}
+.ppr ul li i:hover{
+    color: var(--lightnorage);
+}
+.desinger a{
+    font-weight:bold;
+    font-size: 30px;
+   text-decoration: none;
+}
+.desinger p{
+    color: var(--lightnorage);
+    font-size: 30px;
+}
+.social{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.social nav ul li{
+    padding: 8px;
+    display: inline;
+}
+.social nav ul li i{
+    font-size: 30px;
+}
+#back-to-start{
+    padding-right: 30px;
+    display: grid;
+    justify-items: end;
+    align-items: baseline;
+}
+#back-to-start button{
+    margin-top: -65px;
+    position: absolute;
+    padding: 1em 3em;
+    color: var(--lightgrey);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em var(--lightnorage);
+    background-color: var(--wannabewhite);
+    border: 0.25em solid var(--lightnorage);
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em var(--lightnorage),0 0 2em 0em var(--lightnorage), inset 0 0 0.75em 0.25em var(--lightnorage);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+
 }
 button a{
     text-decoration: none;

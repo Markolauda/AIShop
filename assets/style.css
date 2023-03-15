@@ -48,39 +48,15 @@ header{
     position: sticky;
     z-index: 4;
 }
-.head-wrapper {
-    padding-top: 1px;
-    height: 40px;
-    background-color:var(--green-green);
-  
-}
 #logo img{
     margin-left: 10px;
     float: left;
-    height: 100px;
+    height: 60px;
     width: 80px ;
     margin-bottom: 10px;
     position: absolute;
     z-index: 2;
 }
-#head-message{
-    cursor: pointer;
-    display: grid;
-    place-items: center;
-    margin-top: 1px;
-    font-size: 30px;
-}
-#head-message p{
-    color: var(--whitetipe);
-}
-#head-message p:hover{
-    animation: pulse 0.5s ease-in infinite ;
-    color:var(--br-light);
-}
-@keyframes pulse{
-    25%  {transform: scale(0.9);}
-    75%  {transform: scale(1.1);}
-  }
 #head-message span{
     padding: 5px;
     color: var(--whitetipe);
@@ -105,19 +81,19 @@ nav ul li a i:hover{
 
 #head-all{
     background-image:url(/aishop/assets/img-head/beansb2b.jpg);
-    padding: 40px;
+    padding: 20px;
 }
 .border{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     float:left;
     color: var(--whitetipe);
 }
 .head-home h3 span{
-    color: var(--lightnorage)
+    color:#ff6a00 ;
 }
 .home-head ul li{
     margin-top: 9px;
@@ -241,6 +217,7 @@ button:hover{
     justify-content: center;
     width: 33%;
     background-image:url(/aishop//assets/img-main/cof-cof.jpg);
+    filter: brightness(60%);
     background-position-x:center;  
     height: 700px;
     border-radius: 0px 20px 0px 20px;
@@ -386,11 +363,9 @@ button:hover{
     flex-wrap: wrap;
     align-content: space-around;
     justify-content: center;
-    letter-spacing: 3px;
     width:500px;
 }
 .accessories h3{
-    padding-top: 30px;
     text-align: center;
     color: var(--king-blue);
     font-size: 30px;
@@ -566,19 +541,23 @@ input[type="submit"]
     color: var(--lightnorage);
 }
 .ppr ul{
+    padding: 3px;
     align-items: center;
+}
+.ppr ul li{
+    padding: 3px;
 }
 .rss-sitemap{
     display: flex;
     font-size: 40px;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    width: 100px;
-    height: 70px;
-    padding-top: 90px;
+    width: 300px;
+    height: 200px;
 }
 .rss-sitemap i{
+    padding: 10px;
     color: var(--whitetipe);
 }
 .desinger{
@@ -608,12 +587,26 @@ input[type="submit"]
     color: var(--lightnorage);
     font-size: 30px;
 }
+.social{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 300px;
+    height: 200px;
+}
+.social nav ul li{
+    padding: 8px;
+    display: inline;
+}
+.social nav ul li i{
+    font-size: 30px;
+}
 #back-to-start{
     padding-right: 30px;
     display: grid;
     justify-items: end;
     align-items: baseline;
-    background-image: linear-gradient(to right,var(--br-light),var(--green-green));
 }
 #back-to-start button{
     margin-top: -65px;
@@ -631,6 +624,7 @@ input[type="submit"]
     outline: none;
     cursor: pointer;
     transition: all 0.5s ease-in;
+
 }
 button a{
     text-decoration: none;
