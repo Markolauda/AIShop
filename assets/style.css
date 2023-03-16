@@ -30,6 +30,7 @@ html{
     src: url(/aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
 }
 body{
+    background-color: var(--wannabewhite);
    font-family:"press-reg";
 }
 ul{

@@ -134,7 +134,7 @@ nav ul li a i:hover{
 }
 /*END HEADER*/
 main{
-    background: linear-gradient(var(--brbrown),var(--green-green));
+    background-color: var(--wannabewhite);
     height: 800px;
     width: 100%;
     display: grid;
@@ -198,12 +198,11 @@ form{
 	flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 5px;
 }
 .faform-wrapper input{
     background-color: linear-gradient(0deg,transparent,var(--lightnorage), var(--king-blue));
 	box-shadow: none;
-	border-style: dashed;
+	border-style:none ;
     outline: none;
     box-sizing: border-box;
     font-size: 15px;
@@ -212,6 +211,10 @@ form{
     width: 150px;
     background: transparent;
     color: var(--whitetipe);
+    font-size: 20px;
+}
+.faform-wrappar{
+    color: var(--wannabewhite);
     font-size: 20px;
 }
 form textarea{
@@ -224,8 +227,9 @@ form textarea{
     font-size: 20px;
     color: var(--wannabewhite);
 }
-.faform-wrapeer textarea label{
-    color: var(--lightnorage);
+.faform-wrapeer label textarea{
+    color: var(--wannabewhite);
+
 }
 .faform-wrapper select{
     background-color: var(--lightnorage);
