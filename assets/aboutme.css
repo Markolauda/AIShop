@@ -135,7 +135,7 @@ nav ul li a i:hover{
 main{
     display: flex;
     justify-content: center;
-    background-color: var(--br-light);
+    background-color: var(--wannabewhite);
     width: 100%;
     height: 1000px;
 }
@@ -149,6 +149,7 @@ main{
     height: 700px;
 }
 .about-me-text{
+    color: var(--king-blue);
     text-align: center;
     font-size: 40px;
     padding-top: 40px;
