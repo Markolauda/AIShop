@@ -148,7 +148,7 @@ main{
     flex-wrap: wrap;
     align-content: center;
     
-    width: 1400px;
+    width: 1500px;
     height: 1000px;
     /* background-image: url(/aishop/assets/gallery-hp/coffee-map.jpg); */
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .class-price {
     display: flex;
