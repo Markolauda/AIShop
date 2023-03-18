@@ -223,6 +223,7 @@ input[type="submit"]{
     font-size: 20px;
     font-family:"press-reg";
     color: var(--wannabewhite);
+    border-color:var(--wannabewhite) ;
 }
 /*FOOOTER*/
 #cpc{
