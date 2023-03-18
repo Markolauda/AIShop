@@ -50,20 +50,6 @@ header{
     position: sticky;
     z-index: 4;
 }
-#logo img{
-    margin-left: 10px;
-    float: left;
-    height: 60px;
-    width: 80px ;
-    margin-bottom: 10px;
-    position: absolute;
-    z-index: 2;
-}
-#head-message span{
-    padding: 5px;
-    color: var(--whitetipe);
-    font-size: 20px;
-}
 .nav-bar-b{
     margin-top: -30px;
     float: right;
@@ -89,6 +75,7 @@ nav ul li a i:hover{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
+    padding-top: 10px;
     font-size: 40px;
     text-decoration: none;
     float:left;
