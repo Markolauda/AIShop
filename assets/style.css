@@ -569,12 +569,12 @@ input[type="submit"]
 }
 .desinger a{
     font-weight:bold;
-    font-size: 30px;
+    font-size: 15px;
    text-decoration: none;
 }
 .desinger p{
     color: var(--wannabewhite);
-    font-size: 30px;
+    font-size: 15px;
 }
 .social{
     justify-content: space-evenly;
