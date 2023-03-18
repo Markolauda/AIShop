@@ -199,7 +199,7 @@ main{
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 300px;
+    width: 100px;
     height: 200px;
 }
 .rss-sitemap i{
@@ -209,7 +209,7 @@ main{
 .desinger{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: center;
     width: 20%;
     align-items: center;
 }

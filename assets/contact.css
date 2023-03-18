@@ -269,7 +269,7 @@ input[type="submit"]{
 .desinger{
     display: flex;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: center;
     width: 20%;
     align-items: center;
 }
