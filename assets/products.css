@@ -8,6 +8,7 @@ html{
 }
 :root{
     /* FIRST COLOR PANEL */
+    --greancover:#479749;
     --green-top: #64ab68;
     --lightblue: #7f9a9c;
     --lightgreen:#836153;
@@ -70,22 +71,11 @@ header{
     margin-top: 1px;
     font-size: 30px;
 }
-#head-message p{
-    color: var(--whitetipe);
-}
-#head-message p:hover{
-    animation: pulse 0.5s ease-in infinite ;
-    color:var(--br-light);
-}
 @keyframes pulse{
     25%  {transform: scale(0.9);}
     75%  {transform: scale(1.1);}
   }
-#head-message span{
-    padding: 5px;
-    color: var(--whitetipe);
-    font-size: 20px;
-}
+
 .nav-bar-b{
     margin-top: -30px;
     float: right;
@@ -111,13 +101,13 @@ nav ul li a i:hover{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
-    font-size: 50px;
+    font-size: 40px;
     text-decoration: none;
     float:left;
     color: var(--whitetipe);
 }
 .head-home h3 span{
-    color: var(--lightnorage)
+    color: var(--greancover)
 }
 .home-head ul li{
     margin-top: 9px;
