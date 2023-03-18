@@ -8,6 +8,7 @@ html{
 }
 :root{
     /* FIRST COLOR PANEL */
+    --greancover:#479749;
     --green-top: #64ab68;
     --lightblue: #7f9a9c;
     --lightgreen:#836153;
@@ -94,7 +95,7 @@ nav ul li a i:hover{
     color: var(--whitetipe);
 }
 .head-home h3 span{
-    color:#ff6a00 ;
+    color: var(--greancover);
 }
 .home-head ul li{
     margin-top: 9px;
@@ -217,9 +218,9 @@ button:hover{
     flex-wrap: wrap;
     justify-content: center;
     width: 33%;
-    background-image:url(/aishop//assets/img-main/cof-cof.jpg);
-    filter: brightness(60%);
-    background-position-x:center;  
+    background-image:url(/aishop//assets/img-main/piccoff.jpg);
+    background-position: center; 
+    background-repeat:no-repeat;
     height: 700px;
     border-radius: 0px 20px 0px 20px;
     box-shadow: -10px 0px 20px 0px ;
@@ -231,7 +232,7 @@ button:hover{
 .dartch{
     font-weight:bold;
     font-size:40px;
-    color: var(--whitetipe);
+    color: var( --greancover);
     justify-content: center;
 }
 .about-coffee span{
@@ -254,7 +255,7 @@ button:hover{
     height: 10px;
     border-radius: 10px 0;
     background-color: var(--wannabewhite);
-    color: var(--lightnorage);
+    color: var( --greancover);
 }
 
 
@@ -539,7 +540,7 @@ input[type="submit"]
 }
 .ppr p{
     font-size: 30px;
-    color: var(--lightnorage);
+    color: var(--wannabewhite);
 }
 .ppr ul{
     padding: 3px;
@@ -585,7 +586,7 @@ input[type="submit"]
    text-decoration: none;
 }
 .desinger p{
-    color: var(--lightnorage);
+    color: var(--wannabewhite);
     font-size: 30px;
 }
 .social{

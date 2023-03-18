@@ -229,14 +229,18 @@ form textarea{
 }
 .faform-wrapeer label textarea{
     color: var(--wannabewhite);
-
 }
+
 .faform-wrapper select{
     background-color: var(--lightnorage);
     width: 100px;
     text-align: center;
     height: 30px;
     color: var(--wannabewhite);
+}
+.faform-wrapeer label{
+    color: var(--wannabewhite);
+    font-size: 20px;
 }
 .faform-wrapeer #datTime{
     font-size: large;
