@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://markolauda.github.io/aishop/index.html</loc>
-    <lastmod>2023-15-04</lastmod>
+    <lastmod>2023-18-03</lastmod>
     <priority>1</priority>
     <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://markolauda.github.io/aishop/contact.html/</loc>
-    <lastmod>2023-15-04</lastmod>
+    <lastmod>2023-18-03</lastmod>
         <priority>0.7</priority>
         <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://markolauda.github.io/aishop/about.html</loc>
-    <lastmod>2023-15-04</lastmod>
+    <lastmod>2023-18-03</lastmod>
         <priority>0.6</priority>
         <changefreq>mounthly</changefreq>
   </url>
   <url>
     <loc>https://markolauda.github.io/aishop/gallery.html</loc>
-    <lastmod>2023-15-04</lastmod>
+    <lastmod>2023-18-03</lastmod>
         <priority>1</priority>
         <changefreq>daily</changefreq>
   </url>
