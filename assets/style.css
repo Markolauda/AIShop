@@ -526,7 +526,7 @@ input[type="submit"]
     width: 400px;
 }
 .ppr p{
-    font-size: 30px;
+    font-size: 25px;
     color: var(--wannabewhite);
 }
 .ppr ul{
@@ -538,7 +538,7 @@ input[type="submit"]
 }
 .rss-sitemap{
     display: flex;
-    font-size: 40px;
+    font-size: 25px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -562,19 +562,19 @@ input[type="submit"]
 .ppr ul li i{
     cursor: pointer;
     color: var(--wannabewhite);
-    font-size: 30px;
+    font-size: 25px;
 }
 .ppr ul li i:hover{
     color: var(--lightnorage);
 }
 .desinger a{
     font-weight:bold;
-    font-size: 15px;
+    font-size: 25px;
    text-decoration: none;
 }
 .desinger p{
     color: var(--wannabewhite);
-    font-size: 15px;
+    font-size: 25px;
 }
 .social{
     justify-content: space-evenly;
@@ -589,7 +589,7 @@ input[type="submit"]
     display: inline;
 }
 .social nav ul li i{
-    font-size: 30px;
+    font-size: 25px;
 }
 #back-to-start{
     padding-right: 30px;
