@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+   <channel>
+      <title>DRINKME NEWS</title>
+      <link>https://markolauda.github.io/aishop/index.html</link>
+      <description>OPEN CHANNEL</description>
+       <item>
+         <title>Product's price change</title>
+         <link>https://markolauda.github.io/aishop/products.html</link>
+         <description>new beans new price</description>
+        </item>
+        </channel>
+    </rss>
+    
