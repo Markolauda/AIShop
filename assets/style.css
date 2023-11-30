@@ -8,31 +8,20 @@ html{
 }
 :root{
     /* FIRST COLOR PANEL */
-    --greancover:#479749;
-    --green-top: #64ab68;
-    --lightblue: #7f9a9c;
-    --lightgreen:#836153;
-    --brbrown:#925b23;
-    --grey: #5f6a6c;
-    --green-green: #518159;
+    --greancover:#81bb4b;
     --lightnorage:#E05E00;
-    --lightblack:rgb(39, 37, 37);
-    --br-light:#c5967a;
     /* SECOND COLOR PANEL */
         --black:#10140d;
         --whitetipe:#f6fafd;
-        --king-blue:#021e4b;
-        --wannabewhite:#f2edd7ff;
-
 }
 
 @font-face {
     font-family: "press-reg";
-    src: url(/aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
+    src: url(//aishop/assets/fontawesome-free-6.2.1-web/Lato-Italic.ttf);
 }
 body{
-    background-color: var(--wannabewhite);
-   font-family:"press-reg";
+    background-color: var(--whitetipe);
+    font-family:"press-reg";
 }
 ul{
     list-style-type:none;
@@ -50,6 +39,14 @@ header{
     position: sticky;
     z-index: 4;
 }
+#head-all{
+    height: 70px;
+}
+a img{
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+}
 .nav-bar-b{
     margin-top: -30px;
     float: right;
@@ -61,22 +58,20 @@ header{
 
 nav i{
     font-size: 25px;
-    color: var(--whitetipe);
+    color: var(--lightnorage);
 }
-nav ul li a i:hover{
-    color: var( --br-light);
-}
-
 #head-all{
-    background-image:url(/aishop/assets/img-head/beansb2b.jpg);
-    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #81bb4b;
+
 }
 .border{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration: none;
     float:left;
     color: var(--whitetipe);
@@ -85,14 +80,14 @@ nav ul li a i:hover{
     color: var(--greancover);
 }
 .home-head ul li{
-    margin-top: 9px;
+    margin-top: 15px;
     float: right;
     padding: 10px;
  }
  .home-head ul li a{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration:none;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
 }
 .home-head ul li a:hover{
     color: var(--lightnorage);
@@ -100,14 +95,10 @@ nav ul li a i:hover{
 /* COVER SECTION */
 #wrapper-cover-main{
     margin-top: 10px;
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    background-image:url(/aishop/assets/img-cover/cf-cover.jpg);
+    background-image:url(/aishop/assets/img-cover/Uberry.png);
     height: 810px;
     background-repeat: no-repeat;
     background-size: cover;
-    justify-content: center;
     align-items: center;
 }
 .wrapper-up{
@@ -159,103 +150,104 @@ button:hover{
 /*SECTION HEAD END*/
 /* MAIN SECTION SELL GALLERY */
 #infront{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin-top: 10px;
     width: 100%;
-    height: 1000px;
+    height: 1400px;
 }
 .text-infront-coffee{
-    color: var(--king-blue);
+    color: var(--black);
     width:550px;
     height: 30px;
-    text-shadow: 2px 2px #64ab68;
     padding-top: 40px;
+    text-align: center;
+    margin-left: 700px;
+    margin-bottom: 250px;
 }
 .text-infront-coffee h1{
-    text-align: center;
     font-size: 40px;
     font-weight: bold;
 }
 .main-coffie{
     display: flex;
-    margin-top: 150px;
-    width: 1600px;
-    flex-wrap: nowrap; 
-    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1900px;
+    justify-content: flex-end;
     align-items: center; 
     gap: 30px;  
+    height: 920px;
 }
 .first-coffee{
-    width: 33%;
-    background-image: url(/aishop/assets/img-main/fresh-cup-coffee-with-chocolate-table.jpg);
-    height:700px;
+    width:400px;
+    background-image: url(/aishop/assets/img-main/bobica.jpg);
+    height:300px;
     border-radius: 0px 20px 0px 20px;
     transition: transform 0.5s;
     cursor: pointer;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x:20% ;
 }
 .first-coffee:hover{
-    transform: translateY(-10px);
-
+    transform: translateY(10px);
 }
 .about-coffee{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 33%;
-    background-image:url(/aishop//assets/img-main/piccoff.jpg);
-    background-position: center; 
+    background-image:url(/aishop/assets/img-main/harvest.jpg);
     background-repeat:no-repeat;
-    height: 700px;
+    width:400px;
+    height:300px;
     border-radius: 0px 20px 0px 20px;
     box-shadow: -10px 0px 20px 0px ;
     transition: transform 0.5s;
+    background-size:cover;
+    background-position-x:50%;
 }
 .about-coffee:hover{
     transform: translateY(10px);
-}
-.dartch{
-    font-weight:bold;
-    font-size:40px;
-    color: var( --greancover);
-    justify-content: center;
-}
-.about-coffee span{
-    color: var(--black);
-}
-.about-coffee .origin ul{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column-reverse;
-}
-.about-coffee .origin ul li{
-    font-size: 25px;
-    color: var(--whitetipe);
-    font-weight:bolder;
 }
 .col .ppp{
     display: inline;
     width: 10px;
     height: 10px;
     border-radius: 10px 0;
-    background-color: var(--wannabewhite);
+    background-color: var(--black);
     color: var( --greancover);
 }
-
-
 .pach-coffee{
-    background-image: url(/aishop/assets/img-main/brasil.jpg);
+    background-image: url(/aishop/assets/img-main/teglice.jpeg);
     background-position-y:center;
-    width: 33%;
-    height: 700px;
+    width:400px;
+    height:300px;
     border-radius: 0px 20px 0px 20px;
     transition: transform 0.5s;
+    background-size:cover;
+    background-position-x:50%;
 }
 .pach-coffee:hover{
     transform: translateY(-10px);
+}
+.small-talk-text{
+    width: 300px;
+    height: 200px;
+}
+.small-talk-text p{
+    color: var(--black);
+    font-size: 24px;
+}
+.small-talk-text p span{
+    color: var(--lightnorage);
+    font-weight: bold;
+}
+.about-berry{
+    display: flex;
+    width: 1000px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 /* BLOCK OFFER SECTION */
 #repair{
@@ -267,106 +259,47 @@ button:hover{
     height: 330px;
     padding-bottom:100px ;
 }
-.holder{
-    border-radius:10px 10px 10px 10px ;
-    width: 60%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    scroll-behavior:auto ;  
-    gap: 1.2em;
-    overflow-x:auto;
-    overscroll-behavior-x:contain;
-    scroll-snap-type:x mandatory;
-    cursor: pointer;
-    background-color: #518159;
-}
-.fafa img{
-    background-size: cover;
-    width: 260px;
-    height: 200px;
-    padding-top: 40px;
-}
-.decafe .fafa p{
+.holder p{
     text-align: center;
-    margin-top: -100px;
-    color: var(--king-blue);
-    font-weight: bold;
-    font-size: 25px;
+    color: var(--black);
+    width: 800px;
+    font-size: 24px;
+    border-bottom: 2px solid ;
+    border-color: #81bb4b;
+    padding-bottom: 10px;
 }
-.decafe{
-    box-shadow:  0px 0px 50px 0px var(--black);
-    border-radius: 10px 10px;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    width: 260px;
-    height: 260px;
-    background-image: url(/aishop/assets/png/pngwing.com.png);
-    background-size: cover;
-    background-position-y: -75px;
-}
+
 /* MAP SECTION */
 .how-to-us-map{
     margin-top: 10px;
 }
 .how-to-us-map iframe{
     width: 100%;
-    height: 200px;
+    height: 350px;
 }
 /* FORM ANIMATED SECTION */
 
 #section-sign{
     display: flex;
     justify-content: space-evenly;
-    /* background-image: linear-gradient(to right,var(--br-light),var(--green-green)); */
 }
-.shop{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-    width:500px;
-}
-.shop h3{
-    text-align: center;
-    color: var(--king-blue);
-    font-size: 30px;
-}
-.shop p{
-    color: var(--king-blue);
-    font-size: 20px;
-}
+
 #container-f-f{
     margin-top: 10px;
     display: flex;
-	justify-content: center;
+    flex-wrap: wrap;
 	align-items: center;
 	height: 500px;
-	flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
 }
-.accessories{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: center;
-    width:500px;
-}
-.accessories h3{
+.sign-up-text{
+    color: var(--black);
+    width: 380px;
+    height: 400px;
+    font-size: 24px;
     text-align: center;
-    color: var(--king-blue);
-    font-size: 30px;
-}
-.accessories ul li{
-    font-size: 20px;
-    color: var(--king-blue) ;
-}
-
-.accessories ul{
-    padding: 2px;
-    text-decoration:none;
+    padding-top: 40px;
 }
 .box{
     box-shadow: 0px 0px 10px 0px var(--whitetipe);
@@ -386,7 +319,7 @@ button:hover{
 	width: 380px;
 	height: 420px;
 	transform-origin: bottom right;
-	background: linear-gradient(0deg,transparent,var(--king-blue),var(--lightnorage));
+	background: linear-gradient(0deg,transparent,var(--lightnorage),var(--lightnorage));
 	animation: animate 6s linear infinite;
 }
 .box::after{
@@ -398,7 +331,7 @@ button:hover{
 	width: 380px;
 	height: 420px;
 	transform-origin: bottom right;
-	background: linear-gradient(0deg,transparent,var(--lightnorage), var(--king-blue));
+	background: linear-gradient(0deg,transparent,var(--greancover), var(--greancover));
 	animation: animate 6s linear infinite;
 	animation-delay: -3s;
 }
@@ -416,16 +349,17 @@ button:hover{
 form{
 	position: absolute;
 	inset: 2px;
-	background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+	background-image: linear-gradient(to right,var(--lightnorage),var(--greancover));
 	padding: 50px 40px;
 	border-radius: 10px;
 	z-index: 2;
 	display: flex;
 	flex-direction: column;
+    justify-content: center;
 }
 h2 
 {
-	color:var(--king-blue);
+	color:var(--whitetipe);
 	font-weight: 500;
 	text-align: center;
 	letter-spacing: 0.1em;
@@ -457,7 +391,7 @@ h2
 	left: 0px;
 	padding: 20px 0px 10px;
 	font-size: 1em;
-	color: var(--wannabewhite);
+	color: var(--whitetipe);
 	letter-spacing: 0.05em;
 	transition: 0.5s;
 }
@@ -468,7 +402,7 @@ h2
 	bottom: 0px;
 	width: 100%;
 	height: 2px;
-	background:var(--lightnorage);
+	background:var(--whitetipe);
 	border-radius: 4px;
 	overflow: hidden;
 	transition: 1s;
@@ -487,36 +421,46 @@ h2
 {
 	margin: 10px 0;
 	font-size: 0.75em;
-	color: var(--wannabewhite);
-	text-decoration:var(--wannabewhite);
+	color: var(--whitetipe);
+	text-decoration:var(--whitetipe);
 }
 .links a:hover, 
 .links a:nth-child(2)
 {
-	color:var(--lightnorage);
+	color:var(--whitetipe);
 }
 input[type="submit"]
 {
 	border: none;
 	outline: none;
 	padding: 11px 25px;
-	background:var(--lightnorage);
+	background:var(--whitetipe);
 	cursor: pointer;
 	border-radius: 10px;
 	font-weight: 600;
 	width: 100px;
 	margin-top: 10px;
+    color: var(--greancover);
+}
+.links a button{
+    border: none;
+	outline: none;
+	padding: 11px 25px;
+	background:var(--lightnorage);
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: 600;
+	width: 120px;
+	margin-top: 10px;
     color: var(--wannabewhite);
 }
 /* FOOTER SECTION */
 #cpc{
-    padding-top: 10px;
-    background-color: var(--green-green);
+    background-color: var(--greancover);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 200px;
-    margin: 0px auto;
 }
 .ppr{
     display: flex;
@@ -561,20 +505,24 @@ input[type="submit"]
 }
 .ppr ul li i{
     cursor: pointer;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
     font-size: 25px;
 }
 .ppr ul li i:hover{
     color: var(--lightnorage);
 }
-.desinger a{
-    font-weight:bold;
-    font-size: 25px;
-   text-decoration: none;
-}
+
 .desinger p{
-    color: var(--wannabewhite);
-    font-size: 25px;
+    color: var(--whitetipe);
+    font-size: 18px;
+}
+.desinger a{
+    color: var(--whitetipe);
+    font-size: 18px;
+    text-decoration: none;
+}
+.desinger a:hover{
+    color: var(--black);
 }
 .social{
     justify-content: space-evenly;
@@ -585,12 +533,25 @@ input[type="submit"]
     width: 300px;
     height: 200px;
 }
+.social nav ul{
+    height: 60px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.social nav p{
+    color: var(--whitetipe);
+    font-size: 24px;
+}
 .social nav ul li{
+    color: var(--whitetipe);
     padding: 8px;
     display: inline;
 }
 .social nav ul li i{
-    font-size: 25px;
+    color: var(--whitetipe);
+   width: 20px;
+   height: 20px;
 }
 #back-to-start{
     padding-right: 30px;

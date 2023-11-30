@@ -8,22 +8,11 @@ html{
 }
 :root{
     /* FIRST COLOR PANEL */
-    --grencover:#479749;
-    --green-top: #64ab68;
-    --lightblue: #7f9a9c;
-    --lightgreen:#836153;
-    --brbrown:#925b23;
-    --grey: #5f6a6c;
-    --green-green: #518159;
+    --greancover:#81bb4b;
     --lightnorage:#E05E00;
-    --lightblack:rgb(39, 37, 37);
-    --br-light:#c5967a;
     /* SECOND COLOR PANEL */
         --black:#10140d;
         --whitetipe:#f6fafd;
-        --king-blue:#021e4b;
-        --wannabewhite:#f2edd7ff;
-
 }
 
 @font-face {
@@ -49,6 +38,14 @@ header{
     position: sticky;
     z-index: 4;
 }
+#head-all{
+    height: 70px;
+}
+a img{
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+}
 .nav-bar-b{
     margin-top: -30px;
     float: right;
@@ -60,42 +57,41 @@ header{
 
 nav i{
     font-size: 25px;
-    color: var(--whitetipe);
+    color: var(--lightnorage);
 }
-nav ul li a i:hover{
-    color: var( --br-light);
-}
-
 #head-all{
-    background-image:url(/aishop/assets/img-head/beansb2b.jpg);
-    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #81bb4b;
+
 }
 .border{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration: none;
     float:left;
     color: var(--whitetipe);
 }
 .head-home h3 span{
-    color: var(--grencover)
+    color: var(--greancover);
 }
 .home-head ul li{
-    margin-top: 9px;
+    margin-top: 15px;
     float: right;
     padding: 10px;
  }
  .home-head ul li a{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration:none;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
 }
 .home-head ul li a:hover{
     color: var(--lightnorage);
 }
+
 main{
     display: flex;
     justify-content: center;
@@ -119,13 +115,11 @@ main{
     padding-top: 40px;
 }
 #cpc{
-    padding-top: 10px;
-    background-color: var(--green-green);
+    background-color: var(--greancover);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 200px;
-    margin: 0px auto;
 }
 .ppr{
     display: flex;
@@ -170,35 +164,53 @@ main{
 }
 .ppr ul li i{
     cursor: pointer;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
     font-size: 25px;
 }
 .ppr ul li i:hover{
     color: var(--lightnorage);
 }
-.desinger a{
-    font-weight:bold;
-    font-size: 25px;
-   text-decoration: none;
-}
+
 .desinger p{
-    color: var(--wannabewhite);
-    font-size: 25px;
+    color: var(--whitetipe);
+    font-size: 18px;
+}
+.desinger a{
+    color: var(--whitetipe);
+    font-size: 18px;
+    text-decoration: none;
+}
+.desinger a:hover{
+    color: var(--black);
 }
 .social{
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    align-content: center;
     display: flex;
     width: 300px;
     height: 200px;
 }
+.social nav ul{
+    height: 60px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.social nav p{
+    color: var(--whitetipe);
+    font-size: 24px;
+}
 .social nav ul li{
+    color: var(--whitetipe);
     padding: 8px;
     display: inline;
 }
 .social nav ul li i{
-    font-size: 25px;
+    color: var(--whitetipe);
+   width: 20px;
+   height: 20px;
 }
 #back-to-start{
     padding-right: 30px;

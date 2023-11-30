@@ -8,22 +8,11 @@ html{
 }
 :root{
     /* FIRST COLOR PANEL */
-    --grencover:#479749;
-    --green-top: #64ab68;
-    --lightblue: #7f9a9c;
-    --lightgreen:#836153;
-    --brbrown:#925b23;
-    --grey: #5f6a6c;
-    --green-green: #518159;
+    --greancover:#81bb4b;
     --lightnorage:#E05E00;
-    --lightblack:rgb(39, 37, 37);
-    --br-light:#c5967a;
     /* SECOND COLOR PANEL */
         --black:#10140d;
         --whitetipe:#f6fafd;
-        --king-blue:#021e4b;
-        --wannabewhite:#f2edd7ff;
-
 }
 
 @font-face {
@@ -49,6 +38,14 @@ header{
     position: sticky;
     z-index: 4;
 }
+#head-all{
+    height: 70px;
+}
+a img{
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+}
 .nav-bar-b{
     margin-top: -30px;
     float: right;
@@ -67,38 +64,40 @@ nav ul li a i:hover{
 }
 
 #head-all{
-    background-image:url(/aishop/assets/img-head/beansb2b.jpg);
-    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #81bb4b;
+
 }
 .border{
     border-right: 3px solid #fff;
 }
 .head-home h3 {
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration: none;
     float:left;
     color: var(--whitetipe);
 }
 .head-home h3 span{
-    color: var(--grencover)
+    color: var(--greancover);
 }
 .home-head ul li{
-    margin-top: 9px;
+    margin-top: 15px;
     float: right;
     padding: 10px;
  }
  .home-head ul li a{
-    font-size: 30px;
+    font-size: 20px;
     text-decoration:none;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
 }
 .home-head ul li a:hover{
     color: var(--lightnorage);
 }
 /*END HEADER*/
 main{
-    background-color: var(--wannabewhite);
+    background-color: var(--black);
     height: 800px;
     width: 100%;
     display: grid;
@@ -124,7 +123,7 @@ main{
     width: 600px;
     height: 500px;
 	transform-origin: bottom right;
-	background: linear-gradient(0deg,transparent,var(--king-blue),var(--lightnorage));
+	background: linear-gradient(0deg,transparent,var(--greancover),var(--lightnorage));
 	animation: animate 6s linear infinite;
 }
 .faform-wrapper-d::after{
@@ -136,7 +135,7 @@ main{
     width: 600px;
     height: 500px;
 	transform-origin: bottom right;
-	background: linear-gradient(0deg,transparent,var(--lightnorage), var(--king-blue));
+	background: linear-gradient(0deg,transparent,var(--lightnorage), var(--greancover));
 	animation: animate 6s linear infinite;
 	animation-delay: -3s;
 }
@@ -154,7 +153,7 @@ main{
 form{
     position: absolute;
 	inset: 2px;
-	background-image: linear-gradient(to right,var(--br-light),var(--green-green));
+	background-image: linear-gradient(to right,var(--lightnorage),var(--greancover));
 	padding: 50px 40px;
 	border-radius: 8px;
 	z-index: 2;
@@ -164,7 +163,7 @@ form{
     justify-content: space-between;
 }
 .faform-wrapper input{
-    background-color: linear-gradient(0deg,transparent,var(--lightnorage), var(--king-blue));
+    background-color: linear-gradient(0deg,transparent,var(--lightnorage), var(--black));
 	box-shadow: none;
 	border-style:none ;
     outline: none;
@@ -178,32 +177,32 @@ form{
     font-size: 20px;
 }
 .faform-wrappar{
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
     font-size: 20px;
 }
 form textarea{
     width: 100%;
-    background-color: var(--wannabewhite);
-    color: var(--lightnorage);
+    background-color: var(--whitetipe);
+    color: var(--black);
     height: 70px;
 }
 .faform-wrapper label{
     font-size: 20px;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
 }
 .faform-wrapeer label textarea{
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
 }
 
 .faform-wrapper select{
-    background-color: var(--lightnorage);
+    background-color: var(--greancover);
     width: 100px;
     text-align: center;
     height: 30px;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
 }
 .faform-wrapeer label{
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
     font-size: 20px;
 }
 .faform-wrapeer #datTime{
@@ -219,21 +218,19 @@ input[type="submit"]{
     width: 100px;
     height: 50px;
     border-radius: 10px 10px;
-    background-color: var(--lightnorage);
+    background-color: var(--greancover);
     font-size: 20px;
     font-family:"press-reg";
-    color: var(--wannabewhite);
-    border-color:var(--wannabewhite) ;
+    color: var(--whitetipe);
+    border-color:var(--whitetipe) ;
 }
 /*FOOOTER*/
 #cpc{
-    padding-top: 10px;
-    background-color: var(--green-green);
+    background-color: var(--greancover);
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 200px;
-    margin: 0px auto;
 }
 .ppr{
     display: flex;
@@ -259,7 +256,7 @@ input[type="submit"]{
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 300px;
+    width: 100px;
     height: 200px;
 }
 .rss-sitemap i{
@@ -278,35 +275,53 @@ input[type="submit"]{
 }
 .ppr ul li i{
     cursor: pointer;
-    color: var(--wannabewhite);
+    color: var(--whitetipe);
     font-size: 25px;
 }
 .ppr ul li i:hover{
     color: var(--lightnorage);
 }
-.desinger a{
-    font-weight:bold;
-    font-size: 25px;
-   text-decoration: none;
-}
+
 .desinger p{
-    color: var(--wannabewhite);
-    font-size: 25px;
+    color: var(--whitetipe);
+    font-size: 18px;
+}
+.desinger a{
+    color: var(--whitetipe);
+    font-size: 18px;
+    text-decoration: none;
+}
+.desinger a:hover{
+    color: var(--black);
 }
 .social{
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    align-content: center;
     display: flex;
     width: 300px;
     height: 200px;
 }
+.social nav ul{
+    height: 60px;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+.social nav p{
+    color: var(--whitetipe);
+    font-size: 24px;
+}
 .social nav ul li{
+    color: var(--whitetipe);
     padding: 8px;
     display: inline;
 }
 .social nav ul li i{
-    font-size: 25px;
+    color: var(--whitetipe);
+   width: 20px;
+   height: 20px;
 }
 #back-to-start{
     padding-right: 30px;
