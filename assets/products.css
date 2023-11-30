@@ -99,7 +99,6 @@ nav ul li a i:hover{
 main{
     display: grid;
     justify-content: center;
-    background-color:var(--black);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -268,26 +267,4 @@ main{
     display: grid;
     justify-items: end;
     align-items: baseline;
-}
-#back-to-start button{
-    margin-top: -65px;
-    position: absolute;
-    padding: 1em 3em;
-    color: var(--lightgrey);
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.5em var(--lightnorage);
-    background-color: var(--wannabewhite);
-    border: 0.25em solid var(--lightnorage);
-    border-radius: 1em;
-    box-shadow: 0 0 0.2em var(--lightnorage),0 0 2em 0em var(--lightnorage), inset 0 0 0.75em 0.25em var(--lightnorage);
-    outline: none;
-    cursor: pointer;
-    transition: all 0.5s ease-in;
-
-}
-button a{
-    text-decoration: none;
-    color: var(--king-blue);
 }

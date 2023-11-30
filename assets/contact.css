@@ -59,9 +59,6 @@ nav i{
     font-size: 25px;
     color: var(--whitetipe);
 }
-nav ul li a i:hover{
-    color: var( --br-light);
-}
 
 #head-all{
     justify-content: space-evenly;
@@ -97,7 +94,7 @@ nav ul li a i:hover{
 }
 /*END HEADER*/
 main{
-    background-color: var(--black);
+    background-color: var(--whitetipe);
     height: 800px;
     width: 100%;
     display: grid;
@@ -173,11 +170,11 @@ form{
     color: var(--whitetipe);
     width: 150px;
     background: transparent;
-    color: var(--whitetipe);
+    color: var(--black);
     font-size: 20px;
 }
 .faform-wrappar{
-    color: var(--whitetipe);
+    color: var(--black);
     font-size: 20px;
 }
 form textarea{
@@ -188,10 +185,10 @@ form textarea{
 }
 .faform-wrapper label{
     font-size: 20px;
-    color: var(--whitetipe);
+    color: var(--black);
 }
 .faform-wrapeer label textarea{
-    color: var(--whitetipe);
+    color: var(--black);
 }
 
 .faform-wrapper select{
@@ -199,10 +196,10 @@ form textarea{
     width: 100px;
     text-align: center;
     height: 30px;
-    color: var(--whitetipe);
+    color: var(--black);
 }
 .faform-wrapeer label{
-    color: var(--whitetipe);
+    color: var(--black);
     font-size: 20px;
 }
 .faform-wrapeer #datTime{
@@ -221,7 +218,7 @@ input[type="submit"]{
     background-color: var(--greancover);
     font-size: 20px;
     font-family:"press-reg";
-    color: var(--whitetipe);
+    color: var(--black);
     border-color:var(--whitetipe) ;
 }
 /*FOOOTER*/
@@ -328,26 +325,4 @@ input[type="submit"]{
     display: grid;
     justify-items: end;
     align-items: baseline;
-}
-#back-to-start button{
-    margin-top: -65px;
-    position: absolute;
-    padding: 1em 3em;
-    color: var(--lightgrey);
-    font-size: 15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.5em var(--lightnorage);
-    background-color: var(--wannabewhite);
-    border: 0.25em solid var(--lightnorage);
-    border-radius: 1em;
-    box-shadow: 0 0 0.2em var(--lightnorage),0 0 2em 0em var(--lightnorage), inset 0 0 0.75em 0.25em var(--lightnorage);
-    outline: none;
-    cursor: pointer;
-    transition: all 0.5s ease-in;
-
-}
-button a{
-    text-decoration: none;
-    color: var(--king-blue);
 }
