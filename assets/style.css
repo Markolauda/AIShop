@@ -13,6 +13,7 @@ html{
     /* SECOND COLOR PANEL */
         --black:#10140d;
         --whitetipe:#f6fafd;
+
 }
 
 @font-face {
@@ -250,6 +251,107 @@ button:hover{
     flex-direction: row-reverse;
     justify-content: space-between;
 }
+/*option blok section*/
+section #offers{
+    width: 1600px;
+    height: 600px;
+}
+#we-off{
+    width: 1400px;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    width: 500px;
+    height: 30px;
+}
+.off{
+    display: flex;
+    justify-content: center;
+}
+.off p{
+    color: var(--black);
+    font-size: 40px;
+}
+
+#delivery{
+    padding-top: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 1700px;
+}
+.delivery-o{
+    padding-top:15px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    background-color:var(--whitetipe);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px#666;
+}
+.quality-0{
+    padding-top:15px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    background-color:var(--whitetipe);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #666;
+}
+.reuse-o{
+    padding-top:15px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    background-color:var(--whitetipe);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #666;
+}
+.delivery-o i{
+    font-size: 80px;
+    color: var(--greancover);
+}
+.delivery-o h3{
+    font-size: 40px;
+    color: var(--black);
+}
+.delivery-o p{
+    font-size: 20px;
+    color: var(--black);
+}
+.reuse-o i{
+    font-size: 80px;
+    color: var(--greancover);
+}
+.reuse-o h3{
+    font-size: 40px;
+    color: var(--black);
+}
+.reuse-o p{
+    font-size: 20px;
+    color: var(--black);
+}
+.quality-0 i{
+    font-size: 80px;
+    color: var(--greancover);
+}
+.quality-0 h3{
+    font-size: 40px;
+    color: var(--black);
+}
+.quality-0 p{
+    font-size: 20px;
+    color: var(--black);
+}
+
+
 /* BLOCK OFFER SECTION */
 #repair{
     display: flex;
