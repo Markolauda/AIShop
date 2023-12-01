@@ -252,9 +252,9 @@ button:hover{
     justify-content: space-between;
 }
 /*option blok section*/
-section #offers{
-    width: 1600px;
-    height: 600px;
+#offers{
+    width: 1700px;
+    height: 500px;
 }
 #we-off{
     width: 1400px;
@@ -272,6 +272,21 @@ section #offers{
     color: var(--black);
     font-size: 40px;
 }
+.delivery-o span{
+font-size: 30px;
+color: var(--lightnorage);
+font-weight:bold ;
+}
+.quality-0 span{
+    font-size: 30px;
+    color: var(--lightnorage);
+    font-weight:bold ;
+    }
+.reuse-o span{
+        font-size: 30px;
+        color: var(--lightnorage);
+        font-weight:bold ;
+        }
 
 #delivery{
     padding-top: 50px;
@@ -279,7 +294,7 @@ section #offers{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    width: 1700px;
+    width: 1800px;
 }
 .delivery-o{
     padding-top:15px ;
@@ -347,6 +362,10 @@ section #offers{
     color: var(--black);
 }
 .quality-0 p{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
     font-size: 20px;
     color: var(--black);
 }
