@@ -675,10 +675,4 @@ input[type="submit"]
    width: 20px;
    height: 20px;
 }
-#back-to-start{
-    padding-right: 30px;
-    display: grid;
-    justify-items: end;
-    align-items: baseline;
-}
 
