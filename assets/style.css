@@ -231,7 +231,7 @@ button:hover{
     background-position-x:50%;
 }
 .pach-coffee:hover{
-    transform:translate(0px, 10%);;
+    transform:translate(0px, 10%);
 }
 .small-talk-text{
     width: 300px;
@@ -307,6 +307,10 @@ font-weight:bold ;
     border-radius: 20px;
     box-shadow: 5px 5px 5px#666;
 }
+.delivery-o:hover{
+    transform:translate(70px, 0%);
+    transition-duration: 3s;
+}
 .quality-0{
     padding-top:15px ;
     display: flex;
@@ -318,6 +322,10 @@ font-weight:bold ;
     border-radius: 20px;
     box-shadow: 5px 5px 5px #666;
 }
+.quality-0:hover{
+    transform:translateY(30px);
+    transition-duration: 3s;
+}
 .reuse-o{
     padding-top:15px ;
     display: flex;
@@ -328,6 +336,10 @@ font-weight:bold ;
     background-color:var(--whitetipe);
     border-radius: 20px;
     box-shadow: 5px 5px 5px #666;
+}
+.reuse-o:hover{
+    transform: rotate(1turn);
+    transition-duration: 5s;
 }
 .delivery-o i{
     font-size: 80px;
