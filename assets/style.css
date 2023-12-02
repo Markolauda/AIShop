@@ -193,7 +193,7 @@ button:hover{
     background-position-x:20% ;
 }
 .first-coffee:hover{
-    transform: translateY(10px);
+    transform: rotate(5deg);
 }
 .about-coffee{
     display: flex;
@@ -231,7 +231,7 @@ button:hover{
     background-position-x:50%;
 }
 .pach-coffee:hover{
-    transform: translateY(-10px);
+    transform:translate(0px, 10%);;
 }
 .small-talk-text{
     width: 300px;
